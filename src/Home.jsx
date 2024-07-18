@@ -90,7 +90,7 @@ function Home() {
             survived not only five centuries, but also the leap into electronic
             typesetting, remaining essentially ore recently with desktop
             publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.
+            Ipsum. Sample commit
           </p>
         </div>
       </div>
