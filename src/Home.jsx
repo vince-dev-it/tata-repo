@@ -1,5 +1,9 @@
 import React from "react";
 import "./Home.css";
+import fb from "./assets/fb.png";
+import insta from "./assets/insta.png";
+import twitter from "./assets/twitter.png";
+import vince from "./assets/vince.jpeg";
 
 function Home() {
   return (
@@ -8,20 +12,17 @@ function Home() {
         <div className="flex flex-row justify-center items-center px-10 gap-4 mx-5 font-poppins ">
           <div className="flex flex-col items-center my-20">
             <a href="https://www.facebook.com/YourSensei04">
-              <img src="../src/assets/fb.png" className="mb-4" />
+              <img src={fb} className="mb-4" />
             </a>
             <a href="https://www.instagram.com/yoursensei04/">
-              <img src="../src/assets/insta.png" className="mb-4" />
+              <img src={insta} className="mb-4" />
             </a>
             <a href="https://x.com/Toledssz">
-              <img src="../src/assets/twitter.png" />
+              <img src={twitter} />
             </a>
           </div>
           <div className="flex flex-row items-center text-white">
-            <img
-              src="../src/assets/vince.jpeg"
-              className="rounded-full w-2/6"
-            />
+            <img src={vince} className="rounded-full w-2/6" />
             <div className="px-20">
               <h1 className="md:text-4xl sm:text-sm font-bold py-4">
                 Hello, I'm Jan Vincent Neal Toledo
