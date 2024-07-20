@@ -10,7 +10,7 @@ export default function About() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 py-8 px-10">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 gap-2 py-10 px-10">
         <div className="m-12">
           <img src={photo1648552505} className="w-fit" />
         </div>
@@ -55,44 +55,46 @@ export default function About() {
           Hobbies
         </h1>
       </center>
-      <div className="md:columns-4 sm:columns-1 w-50 gap-10 mx-10 justify-items-center text-center font-poppins">
-        <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
-          <img
-            src={gaming}
-            className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
-          />
-          <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10">
-            Playing Online Games
-          </p>
+      <center>
+        <div className="md:columns-4 sm:columns-1 w-50 gap-10 mx-10 justify-items-center text-center font-poppins mb-20 w-3/4">
+          <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
+            <img
+              src={gaming}
+              className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
+            />
+            <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10">
+              Playing Online Games
+            </p>
+          </div>
+          <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
+            <img
+              src={guitar}
+              className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
+            />
+            <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10 ">
+              Playing Guitar
+            </p>
+          </div>
+          <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
+            <img
+              src={music}
+              className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
+            />
+            <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10">
+              Listening to Music
+            </p>
+          </div>
+          <div className="md:grid sm:flex sm:items-center md:pt-0 sm:pt-10">
+            <img
+              src={asmr}
+              className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
+            />
+            <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10">
+              Watching Coding ASMR
+            </p>
+          </div>
         </div>
-        <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
-          <img
-            src={guitar}
-            className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
-          />
-          <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10 ">
-            Playing Guitar
-          </p>
-        </div>
-        <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
-          <img
-            src={music}
-            className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
-          />
-          <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10">
-            Listening to Music
-          </p>
-        </div>
-        <div className="md:grid sm:flex sm:items-center md:pt-0 sm:pt-10">
-          <img
-            src={asmr}
-            className="rounded-2xl md:w-full sm:w-1/2 aspect-square"
-          />
-          <p className="text-white md:text-xl py-10 md:pl-0 sm:pl-10">
-            Watching Coding ASMR
-          </p>
-        </div>
-      </div>
+      </center>
 
       <Footer></Footer>
     </>

@@ -10,6 +10,9 @@ import WordPress from "./assets/wordpress.png";
 import ReactJS from "./assets/react.png";
 import VisualBasic from "./assets/icons8-visual-basic-100.png";
 import TailwindCSS from "./assets/icons8-tailwind-css-100.png";
+import contact from "./assets/contact.png";
+
+import { useSubscribeEmail } from "herotofu-react";
 
 function Home() {
   return (
@@ -76,7 +79,7 @@ function Home() {
             Short Biography
           </h1>
           <br />
-          <p className="text-white px-20 pt-10 text-justify pb-40">
+          <p className="text-white px-20 pt-10 text-justify">
             I am Jan Vincent Neal R. Toledo, a 22-years old BS Information
             Technology graduate from Quezon City University. I am interested in
             applying for the position of WordPress Developer. I recently
@@ -99,6 +102,82 @@ function Home() {
             all of this acquired knowledge, I wanted to contribute whatever I
             can offer to my future company.
           </p>
+        </div>
+
+        <h1 className="text-white text-3xl font-bold text-center pt-20">
+          Contact Me
+        </h1>
+
+        <div className="flex flex-col justify-center items-center font-poppins">
+          {/* Form */}
+          <form
+            action="https://public.herotofu.com/v1/d781db70-46c8-11ef-b917-afc6b84c2283"
+            method="post"
+            accept-charset="UTF-8"
+            className="grid grid-cols-2 border border-white py-12 px-10 w-3/4 rounded-md mt-10 mb-10 bg-[#121212]"
+          >
+            <div className="flex flex-col">
+              <img src={contact} className="w-11/12" />
+            </div>
+            <div className="grid grid-cols-1">
+              <label for="name" className=" font-poppins text-white">
+                Your Name
+              </label>
+              <input
+                name="Name"
+                id="name"
+                type="text"
+                placeholder="Put your name here"
+                className="h-8 rounded-md px-2"
+                required
+              />
+
+              <label for="email" className=" font-poppins text-white">
+                Your Email
+              </label>
+              <input
+                name="Email"
+                id="email"
+                type="email"
+                placeholder="Put your email here"
+                className="h-8 rounded-md px-2"
+                required
+              />
+
+              <label for="message" className=" font-poppins text-white">
+                Your Message
+              </label>
+              <textarea
+                name="Message"
+                id="message"
+                type="text"
+                placeholder="Put your message here"
+                className="px-2 py-2 w-full h-40 rounded-md"
+                required
+              />
+              <div>
+                <input
+                  type="submit"
+                  value="Send Email"
+                  className="font-poppins cursor-pointer text-white border border-white mt-4 px-2 py-2 rounded-md bg-[#121212] float-right"
+                />
+                <div
+                  // style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;"
+                  className="overflow-hidden absolute"
+                  aria-hidden="true"
+                >
+                  <input
+                    type="text"
+                    name="_gotcha"
+                    tabindex="-1"
+                    autocomplete="off"
+                    className="hidden"
+                  />
+                </div>
+              </div>
+            </div>
+          </form>
+          {/* End of Form */}
         </div>
       </div>
     </>
