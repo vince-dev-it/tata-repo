@@ -4,6 +4,12 @@ import fb from "./assets/fb.png";
 import insta from "./assets/insta.png";
 import twitter from "./assets/twitter.png";
 import vince from "./assets/vince.jpeg";
+import PHP from "./assets/php.png";
+import MySQL from "./assets/mysql.png";
+import WordPress from "./assets/wordpress.png";
+import ReactJS from "./assets/react.png";
+import VisualBasic from "./assets/icons8-visual-basic-100.png";
+import TailwindCSS from "./assets/icons8-tailwind-css-100.png";
 
 function Home() {
   return (
@@ -32,32 +38,32 @@ function Home() {
               </h2>
               <div className="flex flex-row mt-5 gap-4">
                 <img
-                  src="../src/assets/php.png"
+                  src={PHP}
                   className="md:w-10 md:h-10 sm:w-5 sm:h-5"
                   title="PHP"
                 />
                 <img
-                  src="../src/assets/mysql.png"
+                  src={MySQL}
                   className="md:w-10 md:h-10 sm:w-5 sm:h-5"
                   title="MySQL"
                 />
                 <img
-                  src="../src/assets/wordpress.png"
+                  src={WordPress}
                   className="md:w-10 md:h-10 sm:w-5 sm:h-5"
                   title="WordPress"
                 />
                 <img
-                  src="../src/assets/react.png"
+                  src={ReactJS}
                   className="md:w-10 md:h-10 sm:w-5 sm:h-5"
                   title="ReactJS"
                 />
                 <img
-                  src="../src/assets/icons8-visual-basic-100.png"
+                  src={VisualBasic}
                   className="md:w-10 md:h-10 sm:w-5 sm:h-5"
                   title="Visual Basic"
                 />
                 <img
-                  src="../src/assets/icons8-tailwind-css-100.png"
+                  src={TailwindCSS}
                   className="md:w-10 md:h-10 sm:w-5 sm:h-5"
                   title="Tailwind CSS"
                 />
