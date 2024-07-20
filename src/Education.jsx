@@ -12,74 +12,47 @@ export default function Education() {
       <div className="grid md:grid-cols-1 pt-12 grid-flow-row items-center place-items-center font-poppins scroll-smooth">
         <div className="flex md:flex-row sm:flex-col gap-12">
           <div className="w-80">
-            <img src={OBES} />
+            <a href="https://www.facebook.com/136555oldbala">
+              <img src={OBES} />
+            </a>
+
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Old Balara Elementary School
             </p>
-            <p className="text-white text-md text-center pt-8">2008-2014</p>
+
+            <p className="text-white text-xl text-center pt-8">2008-2014</p>
+
+            <p className="text-white text-md text-center pt-8 ">
+              Studied: Grade 1 to Grade 6
+            </p>
           </div>
           <div className="w-80">
-            <img src={JUDGE} />
+            <a href="https://www.facebook.com/TagaJudgeAko">
+              <img src={JUDGE} />
+            </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Judge Feliciano Belmonte Sr. High School
             </p>
-            <p className="text-white text-md text-center pt-8">2014-2020</p>
+            <p className="text-white text-xl text-center pt-8">2014-2020</p>
+            <p className="text-white text-md text-center pt-8 ">
+              Studied: Grade 7 to Grade 12
+            </p>
           </div>
           <div className="w-80">
-            <img src={QCU} />
+            <a href="https://www.facebook.com/qcu1994">
+              <img src={QCU} />
+            </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Quezon City University
             </p>
             <p className="text-white text-md text-center pt-8">2020-2024</p>
+            <p className="text-white text-md text-center pt-8 ">
+              Studied: 1st year college to 4th year college
+            </p>
           </div>
         </div>
       </div>
       {/* End of School */}
-
-      {/* Start of School Descriptions */}
-      <div className="grid grid-flow-row grid-rows-3 font-poppins text-white text-xl mt-20 mx-20 gap-8">
-        <div className="flex flex-row justify-start border border-solid border-white rounded-md bg-obes-bg h-80">
-          <p className="text-white text-3xl font-bold py-10 px-10">
-            Old Balara <br />
-            Elementary School
-          </p>
-          <div>
-            <p className="text-white text-sm py-10 px-10">
-              Old Balara Elementary School
-            </p>
-            <p className="text-white text-md font-semibold py-10 px-10">
-              Visit School
-            </p>
-          </div>
-        </div>
-        <div className="flex flex-row justify-start text-xl border border-solid border-white rounded-md bg-judge-bg h-80">
-          <div>
-            <p className="text-white text-sm py-10 px-10">
-              Old Balara Elementary School
-            </p>
-            <p className="text-white text-md font-semibold py-10 px-10">
-              Visit School
-            </p>
-          </div>
-          <p className="text-white text-3xl font-bold py-10 px-10">
-            Judge Feliciano <br /> Belmonte Sr. <br />
-            High School
-          </p>
-        </div>
-        <div className="flex flex-row justify-start text-xl border border-solid border-white rounded-md bg-qcu-bg h-80">
-          <p className="text-white text-3xl font-bold py-10 px-10">
-            Quezon City University
-          </p>
-          <div>
-            <p className="text-white text-sm py-10 px-10">
-              Old Balara Elementary School
-            </p>
-            <p className="text-white text-md font-semibold py-10 px-10">
-              Visit School
-            </p>
-          </div>
-        </div>
-      </div>
 
       <Footer></Footer>
     </>
