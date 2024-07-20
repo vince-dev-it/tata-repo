@@ -66,31 +66,31 @@ function Home() {
         </div>
         <div className="flex flex-col justify-center items-center my-12 font-poppins">
           <h1 className="text-white text-3xl font-bold inline-block mt-20">
-            Biography
+            Short Biography
           </h1>
           <br />
-          <p className="text-white px-20 pt-10 text-justify">
-            orem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.orem Ipsum is simply
-            dummy text of the printing and typesetting industry. Lochanged. It
-            was popularised in the 1960s with the release of Letraset sheets
-            containing Lorem Ipsum passages, and more recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum.orem Ipsum is simply dummy text of the printing and
-            typesetting industry. Lorem Ipsum has been the industry's standard
-            dummy text ever since the 1500s, when an unknown printer took a
-            galley of type and scrambled it to make a type specimen book. It has
-            survived not only five centuries, but also the leap into electronic
-            typesetting, remaining essentially ore recently with desktop
-            publishing software like Aldus PageMaker including versions of Lorem
-            Ipsum. Sample commit
+          <p className="text-white px-20 pt-10 text-justify pb-40">
+            I am Jan Vincent Neal R. Toledo, a 22-years old BS Information
+            Technology graduate from Quezon City University. I am interested in
+            applying for the position of WordPress Developer. I recently
+            graduated from Quezon City University last June 25, 2024 completing
+            a Bachelor's Degree in Information Technology. During my four year
+            study in the university, I have experienced all of the roles in
+            Information Technology including System Documentation, Web
+            Development, System Developer, UI/UX Designer and Project
+            Management. I am hugely inclined in Front-End Web Development with
+            the use of HTML, CSS and JavaScript along with the recent frameworks
+            such as ReactJS. I focused all of my time to practice my code in
+            Front-End Development and a some of my extra time for some Back-End
+            Development with the use of MySQL queries in PHP. From my previous
+            company, I was an IT Intern who manages and develops multiple web
+            projects for WordPress by utilizing the right tool such as Elementor
+            Pro for the design, PHP Code Snippets for other functions and the
+            Ahrefs as the SEO for optimizing the webpages articles in the Google
+            Search Engine. My continuous hunger for self-improvement has enabled
+            me to explore all the possible skills that my course offers. With
+            all of this acquired knowledge, I wanted to contribute whatever I
+            can offer to my future company.
           </p>
         </div>
       </div>
