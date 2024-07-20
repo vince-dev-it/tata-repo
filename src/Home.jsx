@@ -25,7 +25,7 @@ function Home() {
             <img src={vince} className="rounded-full w-2/6" />
             <div className="px-20">
               <h1 className="md:text-4xl sm:text-sm font-bold py-4">
-                Hello, I'm Jan Vincent Neal Toledos
+                Hello, I'm Jan Vincent Neal Toledo
               </h1>
               <h2 className="md:text-3xl font-medium sm:text-md">
                 Aspiring Front End Web-Developer
