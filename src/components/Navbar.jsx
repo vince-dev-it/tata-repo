@@ -15,7 +15,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="flex flex-row py-6 pr-14 gap-7 font-semibold md:text-base lg:text-base text-xs cursor-pointer hover:*:text-green-400 transition-all">
+        <div className="flex flex-row py-6 pr-14 gap-7 font-semibold ml-6 md:ml-0 md:text-base lg:text-base text-xs cursor-pointer hover:*:text-green-400 transition-all">
           <Link to={"/"}>
             <p className="text-white ">Home</p>
           </Link>
