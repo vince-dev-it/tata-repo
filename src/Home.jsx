@@ -44,7 +44,7 @@ function Home() {
             <h2 className="lg:text-3xl md:text-xl text-md text-center md:text-left lg:text-left font-medium ">
               Aspiring Front End Web-Developer
             </h2>
-            <div className="flex flex-row mt-8 gap-4 text-center md:justify-start lg:justify-start">
+            <div className="flex flex-row mt-8 gap-3 text-center justify-start md:justify-start lg:justify-start">
               <img
                 src={PHP}
                 className=" md:w-10 md:h-10 lg:w-10 lg:h-10 w-8 h-8"
@@ -87,7 +87,7 @@ function Home() {
           A quick summary of my cover letter.
         </p>
         <br />
-        <p className="text-white text-md md:text-base text-xs px-10 py-10 pt-10 md:mx-40 lg:mx-40 mx-10 text-justify rounded-xl leading-relaxed bg-[#1c1c1c]">
+        <p className="text-white text-md md:text-base text-xs px-10 py-10 pt-10 md:mx-40 lg:mx-40 mx-10 rounded-xl leading-relaxed bg-[#1c1c1c]">
           I am Jan Vincent Neal R. Toledo, a 22-years old BS Information
           Technology graduate from Quezon City University. I am interested in
           applying for the position of WordPress Developer. I recently graduated
