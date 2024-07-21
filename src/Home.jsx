@@ -44,7 +44,7 @@ function Home() {
             <h2 className="lg:text-3xl md:text-xl text-md text-center md:text-left lg:text-left font-medium ">
               Aspiring Front End Web-Developer
             </h2>
-            <div className="flex flex-row mt-8 gap-4 text-center md:justify-start lg:justify-start justify-center">
+            <div className="flex flex-row mt-8 gap-4 text-center md:justify-start lg:justify-start">
               <img
                 src={PHP}
                 className=" md:w-10 md:h-10 lg:w-10 lg:h-10 w-8 h-8"
