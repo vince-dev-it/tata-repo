@@ -19,16 +19,19 @@ function Home() {
     <>
       <div className="">
         <div className="grid md:grid-cols-2 sm:grid-cols-1 justify-center items-center px-10 mx-5 font-poppins">
-          <div className="flex flex-row items-center my-1 md:ml-8 sm:ml-8 w-9/12">
+          <div className="flex flex-row items-center my-1 md:ml-8 sm:ml-0 md:w-9/12 sm:w-full">
             <div>
               <a href="https://www.facebook.com/YourSensei04">
-                <img src={fb} className="mb-4" />
+                <img src={fb} className="mb-4 md:w-10 md:h-10 sm:w-5 sm:h-5" />
               </a>
               <a href="https://www.instagram.com/yoursensei04/">
-                <img src={insta} className="mb-4" />
+                <img
+                  src={insta}
+                  className="mb-4 md:w-10 md:h-10 sm:w-5 sm:h-5"
+                />
               </a>
               <a href="https://x.com/Toledssz">
-                <img src={twitter} />
+                <img src={twitter} className="md:w-10 md:h-10 sm:w-5 sm:h-5" />
               </a>
             </div>
 
@@ -39,10 +42,10 @@ function Home() {
 
           <div className="flex flex-row items-center text-white">
             <div className="md:text-left sm:text-center">
-              <h1 className="text-4xl font-bold py-4">
+              <h1 className="md:text-4xl sm:text-xl sm:text-center font-bold py-4">
                 Hello, I'm Jan Vincent Neal Toledo
               </h1>
-              <h2 className="md:text-3xl sm:text-xl font-medium sm:text-md">
+              <h2 className="md:text-3xl sm:text-md font-medium sm:text-md">
                 Aspiring Front End Web-Developer
               </h2>
               <div className="flex flex-row mt-5 gap-4 text-center md:justify-start sm:justify-center">
@@ -81,7 +84,7 @@ function Home() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center my-12 font-poppins">
-          <h1 className="text-white text-2xl font-semibold inline-block mt-40">
+          <h1 className="text-white md:text-2xl sm:text-xl font-semibold inline-block mt-20">
             Short Biography
           </h1>
           <p className="mt-5 text-sm text-gray-400">
@@ -112,7 +115,7 @@ function Home() {
             can offer to my future company.
           </p>
         </div>
-        <h1 className="font-poppins text-white text-2xl font-semibold text-center mt-40">
+        <h1 className="font-poppins text-white text-2xl font-semibold text-center mt-20">
           Let's be friends
         </h1>
         <p className="mt-5 text-sm text-gray-400 text-center leading-relaxed font-poppins">
@@ -133,7 +136,7 @@ function Home() {
               <img src={contact} className="w-11/12" />
             </div>
             <div className="grid grid-cols-1">
-              <h1 className="text-white text-2xl font-semibold text-center">
+              <h1 className="text-white md:text-2xl sm:text-xl font-semibold text-center">
                 Contact Me
               </h1>
               <label for="name" className=" font-poppins text-white">

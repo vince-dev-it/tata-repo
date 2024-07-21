@@ -13,26 +13,26 @@ export default function About() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 mx-40 mt-5 rounded-lg px-10 py-10 gap-10 bg-[#1c1c1c]">
+      <div className="grid md:grid-cols-2 sm:grid-cols-1 md:mx-40 sm:mx-20 mt-5 rounded-lg px-10 py-10 gap-10 bg-[#1c1c1c]">
         <div className="w-fit">
-          <p className="text-white text-4xl font-poppins font-medium tracking-wide w-fit text-left leading-snug">
+          <p className="text-white md:text-4xl sm:text-xl font-poppins font-medium tracking-wide w-fit text-left leading-snug">
             I design and code websites according to the needs of the client.
           </p>
           <br />
           <br />
-          <p className="text-gray-400 text-xl font-poppins font-normal tracking-wide w-fit text-left leading-relaxed pb-10">
+          <p className="text-gray-400 md:text-xl sm:text-sm font-poppins font-normal tracking-wide w-fit text-left leading-relaxed pb-10">
             An aspiring Front-End Web Developer which specializes in JavaScript
             and CSS Frameworks for Responsive Web-Design. I am dedicated to meet
             the expectations and preference of my future clients in every
             detail.
           </p>
-          <div className="flex flex-row font-poppins text-white cursor-pointer bg-[#131313] px-8 py-5 text-md rounded-lg w-3/6 items-center text-center">
+          <div className="flex flex-row font-poppins text-white cursor-pointer bg-[#131313] px-8 py-5 text-md rounded-lg md:w-3/6 sm:w-5/6 items-center text-center">
             <img src={download} className="pr-2" />
             <a href={resume} download="Jan Vincent Neal Toledo Resume">
               Download my Resume
             </a>
           </div>
-          <div className="flex flex-row font-poppins mt-5 text-white cursor-pointer bg-[#131313] px-8 py-5 text-md rounded-lg w-7/12 items-center text-center">
+          <div className="flex flex-row font-poppins mt-5 text-white cursor-pointer bg-[#131313] px-8 py-5 text-md rounded-lg md:w-7/12 sm:8/12 items-center text-center">
             <img src={download} className="pr-2" />
             <a
               href={coverletter}
