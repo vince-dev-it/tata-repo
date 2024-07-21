@@ -11,7 +11,7 @@ export default function Projects() {
       <h1 className="text-white text-4xl font-poppins font-bold py-8 text-center">
         Recent Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-3 place-items-baseline px-10 pb-10 font-poppins gap-8 ">
+      <div className="grid grid-cols-1 md:grid-cols-3 place-items-baseline px-6 pb-10 font-poppins gap-8 ">
         {/* Card 1 */}
         <div className="flex flex-col gap-10 rounded-md py-10 px-10 place-items-center bg-[#1c1c1c]">
           <p className="text-white font-poppins text-xl font-semibold text-center">
