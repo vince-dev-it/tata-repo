@@ -13,9 +13,9 @@ export default function About() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="grid md:grid-cols-2 sm:grid-cols-1 md:mx-40 sm:mx-20 mt-5 rounded-lg px-10 py-10 gap-10 bg-[#1c1c1c]">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:mx-40 mx-8 mt-5 rounded-lg px-10 py-10 gap-10 bg-[#1c1c1c]">
         <div className="w-fit">
-          <p className="text-white md:text-4xl sm:text-xl font-poppins font-medium tracking-wide w-fit text-left leading-snug">
+          <p className="text-white md:text-4xl text-xl font-poppins font-medium tracking-wide w-fit text-left leading-snug">
             I design and code websites according to the needs of the client.
           </p>
           <br />
@@ -45,16 +45,19 @@ export default function About() {
           <br />
         </div>
         <div className="object-scale-down">
-          <img src={photo1648552505} className="w-full rounded-md" />
+          <img
+            src={photo1648552505}
+            className="w-full rounded-md hidden md:flex lg:flex"
+          />
         </div>
       </div>
       <center>
-        <h1 className="text-white text-4xl font-poppins font-semibold inline-block py-10 mt-20">
+        <h1 className="text-white text-xl text-center md:text-4xl font-poppins font-semibold py-10 mt-20">
           Hobbies
         </h1>
       </center>
       <center>
-        <div className="md:columns-4 sm:columns-1 gap-10 mx-10 justify-items-center text-center font-poppins mb-20 w-5/6">
+        <div className="md:columns-4 sm:columns-1 gap-10 mx-10 justify-items-center text-center font-poppins mb-20 md:w-5/6">
           <div className="md:grid sm:flex sm:items-center sm:text-m md:pt-0 sm:pt-10">
             <img
               src={gaming}

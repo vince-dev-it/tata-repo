@@ -11,7 +11,7 @@ export default function Skills() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="grid md:grid-cols-3 sm:grid-cols-1 place-items-center pt-10 font-poppins mx-60">
+      <div className="grid md:grid-cols-3 grid-cols-1 place-items-center pt-10 font-poppins mx-20 md:mx-60">
         {/* Column 1 */}
         <div className="">
           <div className="border border-solid border-white rounded-lg w-80 h-96 mb-10 p-14 grid place-items-center bg-[#8B7F7F]/[.3]">

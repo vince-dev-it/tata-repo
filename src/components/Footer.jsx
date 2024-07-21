@@ -20,9 +20,9 @@ function Footer() {
           </a>
         </div>
         <div className="flex flex-row items-center gap-2">
-          <img src={beanslogo} className="w-24" />
+          <img src={beanslogo} className="w-24 mt-4 md:mt-0" />
         </div>
-        <div className="flex flex-row items-center gap-2">
+        <div className="flex flex-row items-center gap-2 mt-4 md:mt-0">
           <p className="font-poppins text-white">© Jan Vincent Neal Toledo</p>
         </div>
       </div>

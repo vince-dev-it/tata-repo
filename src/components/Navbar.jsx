@@ -12,7 +12,7 @@ function Navbar() {
             <img src={logobeans} className="md:w-32 sm:w-20 cursor-pointer" />
           </Link>
         </div>
-        <div className="flex flex-row py-6 pr-14 gap-7 font-semibold md:text-16px sm:text-12px cursor-pointer hover:*:text-green-400 transition-all">
+        <div className="flex flex-row py-6 pr-14 gap-7 font-semibold md:text-base lg:text-base text-xs cursor-pointer hover:*:text-green-400 transition-all">
           <Link to={"/"}>
             <p className="text-white ">Home</p>
           </Link>

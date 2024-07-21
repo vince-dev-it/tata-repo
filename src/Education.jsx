@@ -10,16 +10,11 @@ export default function Education() {
     <>
       <Navbar></Navbar>
       {/* School */}
-      <div className="grid md:grid-cols-1 pt-12 mb-40 grid-flow-row items-center place-items-center font-poppins scroll-smooth">
-        <div className="flex md:flex-row sm:flex-col gap-12">
+      <div className="grid md:grid-cols-1 grid-cols-1 pt-12 mb-40 grid-flow-row items-center place-items-center font-poppins scroll-smooth">
+        <div className="flex md:flex-row flex-col gap-12">
           <div className="w-80">
             <a href="https://www.facebook.com/136555oldbala">
-              <AsyncImage
-                src={OBES}
-                style={{ width: 320, height: 320 }}
-                loader={<img src={OBES} style={{ filter: "blur(8px)" }} />}
-                error={<div style={{ background: "#2222" }} />}
-              />
+              <img src={OBES} />
             </a>
 
             <p className="text-white text-3xl text-center pt-8 text-wrap">
@@ -34,12 +29,7 @@ export default function Education() {
           </div>
           <div className="w-80">
             <a href="https://www.facebook.com/TagaJudgeAko">
-              <AsyncImage
-                src={JUDGE}
-                style={{ width: 320, height: 320 }}
-                loader={<img src={JUDGE} style={{ filter: "blur(8px)" }} />}
-                error={<div style={{ background: "#2222" }} />}
-              />
+              <img src={JUDGE} />
             </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Judge Feliciano Belmonte Sr. High School
@@ -51,12 +41,7 @@ export default function Education() {
           </div>
           <div className="w-80">
             <a href="https://www.facebook.com/qcu1994">
-              <AsyncImage
-                src={QCU}
-                style={{ width: 320, height: 320 }}
-                loader={<img src={QCU} style={{ filter: "blur(8px)" }} />}
-                error={<div style={{ background: "#2222" }} />}
-              />
+              <img src={QCU} />
             </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Quezon City University
