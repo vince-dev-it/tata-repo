@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex flex-row justify-between px-8 pt-2 font-poppins align-middle pl-0 md:pl-12 sticky top-0 bg-[#131313]">
+      <div className="flex flex-row justify-between px-0 pt-2 font-poppins align-middle pl-0 md:pl-12 sticky bg-[#131313]">
         <div className="">
           <Link to={"/"}>
             <img
@@ -15,7 +15,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="flex flex-row py-6 pr-14 gap-7 font-semibold ml-6 md:ml-0 md:text-base lg:text-base text-xs cursor-pointer hover:*:text-green-400 transition-all">
+        <div className="flex flex-row py-6 pr-10 md:pr-14 gap-5 font-semibold ml-0 md:ml-0 md:text-base lg:text-base text-xs cursor-pointer">
           <Link to={"/"}>
             <p className="text-white ">Home</p>
           </Link>
