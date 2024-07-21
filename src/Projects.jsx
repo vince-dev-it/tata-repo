@@ -46,6 +46,9 @@ export default function Projects() {
             urban agriculture in a modern way through collaboration and
             community building.
           </p>
+          <p className="text-white font-poppins text-sm text-justify">
+            Role: Front-End Programmer, Documentation
+          </p>
         </div>
         {/* Card 2 */}
         <div className="flex flex-col gap-10 border border-[#686D76] rounded-md py-10 px-10 place-items-center">
@@ -74,6 +77,9 @@ export default function Projects() {
             Plugin, PHP Snippets, MailerLite and Elementor Pro for overall
             functionality of the website.
           </p>
+          <p className="text-white font-poppins text-sm text-justify">
+            Role: Project Lead, Front-End Development
+          </p>
         </div>
         {/* Card 3 */}
         <div className="flex flex-col gap-10 border border-[#686D76] rounded-md py-10 px-10 place-items-center">
@@ -100,6 +106,9 @@ export default function Projects() {
             MailerLite and Elementor Pro for dynamic design of the website. The
             products varies on different interior designs that offers different
             art styles and designs.
+          </p>
+          <p className="text-white font-poppins text-sm text-justify">
+            Role: Project Lead, Front-End Development
           </p>
         </div>
       </div>
