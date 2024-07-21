@@ -15,7 +15,7 @@ function Navbar() {
             />
           </Link>
         </div>
-        <div className="flex flex-row py-6 pr-10 md:pr-14 gap-5 font-semibold ml-0 md:ml-0 md:text-base lg:text-base text-xs cursor-pointer">
+        <div className="flex flex-row py-6 px-10 md:pr-14 gap-5 font-semibold ml-0 md:ml-0 md:text-base lg:text-base text-xs cursor-pointer">
           <Link to={"/"}>
             <p className="text-white ">Home</p>
           </Link>
