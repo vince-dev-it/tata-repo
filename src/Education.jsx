@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import OBES from "./assets/OBES.png";
 import JUDGE from "./assets/JFBSHS.png";
 import QCU from "./assets/QCU.png";
+import Flora from "./assets/Flora.png";
 import { AsyncImage } from "loadable-image";
 
 export default function Education() {
@@ -28,15 +29,31 @@ export default function Education() {
             </p>
           </div>
           <div className="w-80">
+            <a href="https://www.facebook.com/136555oldbala">
+              <img src={Flora} />
+            </a>
+
+            <p className="text-white text-3xl text-center pt-8 text-wrap">
+              Flora A. Ylagan High School
+            </p>
+
+            <p className="text-white text-xl text-center pt-8">2014-2016</p>
+
+            <p className="text-white text-md text-center pt-8 ">
+              Studied: Grade 7 to Grade 8
+            </p>
+          </div>
+
+          <div className="w-80">
             <a href="https://www.facebook.com/TagaJudgeAko">
               <img src={JUDGE} />
             </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Judge Feliciano Belmonte Sr. High School
             </p>
-            <p className="text-white text-xl text-center pt-8">2014-2020</p>
+            <p className="text-white text-xl text-center pt-8">2016-2020</p>
             <p className="text-white text-md text-center pt-8 ">
-              Studied: Grade 7 to Grade 12
+              Studied: Grade 9 to Grade 12
             </p>
           </div>
           <div className="w-80">
