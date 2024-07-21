@@ -6,7 +6,7 @@ import linkedin from "../assets/icons8-linkedin-100.png";
 function Footer() {
   return (
     <>
-      <div className="grid md:grid-cols-3 sm:grid-cols-1 justify-items-center py-10 bg-[#121212]">
+      <div className="grid md:grid-cols-3 sm:grid-cols-1 justify-items-center py-10 bg-[#131313]">
         <div className="flex flex-row items-center gap-2">
           <a href="https://www.facebook.com/YourSensei04/">
             <img src={facebooks} className="w-10" />

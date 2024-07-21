@@ -17,7 +17,7 @@ import { useSubscribeEmail } from "herotofu-react";
 function Home() {
   return (
     <>
-      <div className="bg-gradient-to-b from-[#121212] from-47% via-[#252525] via-76% to-[#303030] to-100%">
+      <div className="">
         <div className="flex flex-row justify-center items-center px-10 gap-4 mx-5 font-poppins ">
           <div className="flex flex-col items-center my-20">
             <a href="https://www.facebook.com/YourSensei04">
@@ -75,11 +75,14 @@ function Home() {
           </div>
         </div>
         <div className="flex flex-col justify-center items-center my-12 font-poppins">
-          <h1 className="text-white text-3xl font-bold inline-block mt-20">
+          <h1 className="text-white text-2xl font-semibold inline-block mt-40">
             Short Biography
           </h1>
+          <p className="mt-5 text-sm text-gray-400">
+            A quick summary of my cover letter.
+          </p>
           <br />
-          <p className="text-white px-20 pt-10 text-justify">
+          <p className="text-white px-10 py-10 pt-10 mx-40 text-justify rounded-xl leading-relaxed bg-[#1c1c1c]">
             I am Jan Vincent Neal R. Toledo, a 22-years old BS Information
             Technology graduate from Quezon City University. I am interested in
             applying for the position of WordPress Developer. I recently
@@ -103,10 +106,14 @@ function Home() {
             can offer to my future company.
           </p>
         </div>
-
-        <h1 className="text-white text-3xl font-bold text-center pt-20">
-          Contact Me
+        <h1 className="font-poppins text-white text-2xl font-semibold text-center mt-40">
+          Let's be friends
         </h1>
+        <p className="mt-5 text-sm text-gray-400 text-center leading-relaxed font-poppins">
+          If you happen to have some job offers, commissions, and inquiries,
+          <br />
+          please fill out the form below and it will directly go to my inbox.
+        </p>
 
         <div className="flex flex-col justify-center items-center font-poppins">
           {/* Form */}
@@ -114,12 +121,15 @@ function Home() {
             action="https://public.herotofu.com/v1/d781db70-46c8-11ef-b917-afc6b84c2283"
             method="post"
             accept-charset="UTF-8"
-            className="grid grid-cols-2 border border-white py-12 px-10 w-3/4 rounded-md mt-10 mb-10 bg-[#121212]"
+            className="grid grid-cols-2 py-10 px-10 mx-40 rounded-xl mt-10 mb-10 bg-[#1c1c1c]"
           >
             <div className="flex flex-col">
               <img src={contact} className="w-11/12" />
             </div>
             <div className="grid grid-cols-1">
+              <h1 className="text-white text-2xl font-semibold text-center">
+                Contact Me
+              </h1>
               <label for="name" className=" font-poppins text-white">
                 Your Name
               </label>
@@ -128,7 +138,7 @@ function Home() {
                 id="name"
                 type="text"
                 placeholder="Put your name here"
-                className="h-8 rounded-md px-2"
+                className="h-10 rounded-md px-4"
                 required
               />
 
@@ -140,7 +150,7 @@ function Home() {
                 id="email"
                 type="email"
                 placeholder="Put your email here"
-                className="h-8 rounded-md px-2"
+                className="h-10 rounded-md px-4"
                 required
               />
 
@@ -152,14 +162,14 @@ function Home() {
                 id="message"
                 type="text"
                 placeholder="Put your message here"
-                className="px-2 py-2 w-full h-40 rounded-md"
+                className="px-4 py-4 w-full h-40 rounded-md"
                 required
               />
               <div>
                 <input
                   type="submit"
                   value="Send Email"
-                  className="font-poppins cursor-pointer text-white border border-white mt-4 px-2 py-2 rounded-md bg-[#121212] float-right"
+                  className="font-poppins cursor-pointer text-white mt-4 px-4 py-4 rounded-md bg-[#121212] float-right"
                 />
                 <div
                   // style="text-indent:-99999px; white-space:nowrap; overflow:hidden; position:absolute;"
