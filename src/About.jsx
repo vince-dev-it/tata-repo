@@ -32,7 +32,7 @@ export default function About() {
               Download my Resume
             </a>
           </div>
-          <div className="flex flex-row font-poppins mt-5 text-white cursor-pointer bg-[#131313] px-8 py-5 text-md rounded-lg md:w-7/12 sm:8/12 items-center text-center">
+          <div className="flex flex-row font-poppins mt-5 text-white cursor-pointer bg-[#131313] px-8 py-5 text-md rounded-lg md:w-7/12 items-center text-center">
             <img src={download} className="pr-2" />
             <a
               href={coverletter}

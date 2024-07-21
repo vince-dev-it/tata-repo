@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import OBES from "./assets/OBES.png";
 import JUDGE from "./assets/JFBSHS.png";
 import QCU from "./assets/QCU.png";
+import { AsyncImage } from "loadable-image";
 
 export default function Education() {
   return (
@@ -13,7 +14,12 @@ export default function Education() {
         <div className="flex md:flex-row sm:flex-col gap-12">
           <div className="w-80">
             <a href="https://www.facebook.com/136555oldbala">
-              <img src={OBES} />
+              <AsyncImage
+                src={OBES}
+                style={{ width: 320, height: 320 }}
+                loader={<img src={OBES} style={{ filter: "blur(8px)" }} />}
+                error={<div style={{ background: "#2222" }} />}
+              />
             </a>
 
             <p className="text-white text-3xl text-center pt-8 text-wrap">
@@ -28,7 +34,12 @@ export default function Education() {
           </div>
           <div className="w-80">
             <a href="https://www.facebook.com/TagaJudgeAko">
-              <img src={JUDGE} />
+              <AsyncImage
+                src={JUDGE}
+                style={{ width: 320, height: 320 }}
+                loader={<img src={JUDGE} style={{ filter: "blur(8px)" }} />}
+                error={<div style={{ background: "#2222" }} />}
+              />
             </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Judge Feliciano Belmonte Sr. High School
@@ -40,7 +51,12 @@ export default function Education() {
           </div>
           <div className="w-80">
             <a href="https://www.facebook.com/qcu1994">
-              <img src={QCU} />
+              <AsyncImage
+                src={QCU}
+                style={{ width: 320, height: 320 }}
+                loader={<img src={QCU} style={{ filter: "blur(8px)" }} />}
+                error={<div style={{ background: "#2222" }} />}
+              />
             </a>
             <p className="text-white text-3xl text-center pt-8 text-wrap">
               Quezon City University
