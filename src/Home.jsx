@@ -18,56 +18,62 @@ function Home() {
   return (
     <>
       <div className="">
-        <div className="flex flex-row justify-center items-center px-10 gap-4 mx-5 font-poppins ">
-          <div className="flex flex-col items-center my-20">
-            <a href="https://www.facebook.com/YourSensei04">
-              <img src={fb} className="mb-4" />
-            </a>
-            <a href="https://www.instagram.com/yoursensei04/">
-              <img src={insta} className="mb-4" />
-            </a>
-            <a href="https://x.com/Toledssz">
-              <img src={twitter} />
-            </a>
+        <div className="grid md:grid-cols-2 sm:grid-cols-1 justify-center items-center px-10 mx-5 font-poppins">
+          <div className="flex flex-row items-center my-1 md:ml-8 sm:ml-8 w-9/12">
+            <div>
+              <a href="https://www.facebook.com/YourSensei04">
+                <img src={fb} className="mb-4" />
+              </a>
+              <a href="https://www.instagram.com/yoursensei04/">
+                <img src={insta} className="mb-4" />
+              </a>
+              <a href="https://x.com/Toledssz">
+                <img src={twitter} />
+              </a>
+            </div>
+
+            <div className="w-fit pl-10">
+              <img src={vince} className="rounded-full" />
+            </div>
           </div>
+
           <div className="flex flex-row items-center text-white">
-            <img src={vince} className="rounded-full w-2/6" />
-            <div className="px-20">
-              <h1 className="md:text-4xl sm:text-sm font-bold py-4">
+            <div className="md:text-left sm:text-center">
+              <h1 className="text-4xl font-bold py-4">
                 Hello, I'm Jan Vincent Neal Toledo
               </h1>
-              <h2 className="md:text-3xl font-medium sm:text-md">
+              <h2 className="md:text-3xl sm:text-xl font-medium sm:text-md">
                 Aspiring Front End Web-Developer
               </h2>
-              <div className="flex flex-row mt-5 gap-4">
+              <div className="flex flex-row mt-5 gap-4 text-center md:justify-start sm:justify-center">
                 <img
                   src={PHP}
-                  className="md:w-10 md:h-10 sm:w-5 sm:h-5"
+                  className="md:w-10 md:h-10 sm:w-8 sm:h-8"
                   title="PHP"
                 />
                 <img
                   src={MySQL}
-                  className="md:w-10 md:h-10 sm:w-5 sm:h-5"
+                  className="md:w-10 md:h-10 sm:w-8 sm:h-8"
                   title="MySQL"
                 />
                 <img
                   src={WordPress}
-                  className="md:w-10 md:h-10 sm:w-5 sm:h-5"
+                  className="md:w-10 md:h-10 sm:w-8 sm:h-8"
                   title="WordPress"
                 />
                 <img
                   src={ReactJS}
-                  className="md:w-10 md:h-10 sm:w-5 sm:h-5"
+                  className="md:w-10 md:h-10 sm:w-8 sm:h-8"
                   title="ReactJS"
                 />
                 <img
                   src={VisualBasic}
-                  className="md:w-10 md:h-10 sm:w-5 sm:h-5"
+                  className="md:w-10 md:h-10 sm:w-8 sm:h-8"
                   title="Visual Basic"
                 />
                 <img
                   src={TailwindCSS}
-                  className="md:w-10 md:h-10 sm:w-5 sm:h-5"
+                  className="md:w-10 md:h-10 sm:w-8 sm:h-8"
                   title="Tailwind CSS"
                 />
               </div>
@@ -82,7 +88,7 @@ function Home() {
             A quick summary of my cover letter.
           </p>
           <br />
-          <p className="text-white px-10 py-10 pt-10 mx-40 text-justify rounded-xl leading-relaxed bg-[#1c1c1c]">
+          <p className="text-white px-10 py-10 pt-10 md:mx-40 sm:mx-10 text-justify rounded-xl leading-relaxed bg-[#1c1c1c]">
             I am Jan Vincent Neal R. Toledo, a 22-years old BS Information
             Technology graduate from Quezon City University. I am interested in
             applying for the position of WordPress Developer. I recently
@@ -121,7 +127,7 @@ function Home() {
             action="https://public.herotofu.com/v1/d781db70-46c8-11ef-b917-afc6b84c2283"
             method="post"
             accept-charset="UTF-8"
-            className="grid grid-cols-2 py-10 px-10 mx-40 rounded-xl mt-10 mb-10 bg-[#1c1c1c]"
+            className="grid md:grid-cols-2 sm:grid-cols-1 py-10 px-10 md:mx-40 sm:mx-10 rounded-xl mt-10 mb-10 bg-[#1c1c1c]"
           >
             <div className="flex flex-col">
               <img src={contact} className="w-11/12" />
