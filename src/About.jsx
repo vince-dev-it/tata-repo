@@ -6,7 +6,7 @@ import guitar from "./assets/guitar.jpg";
 import music from "./assets/spotify.webp";
 import asmr from "./assets/hqdefault.jpg";
 import download from "./assets/download.png";
-import resume from "./assets/Toledo-Resume.pdf";
+import resume from "./assets/Jan Vincent Neal Toledo - Resume.pdf";
 import coverletter from "./assets/Jan Vincent Neal R. Toledo - Cover Letter.pdf";
 
 export default function About() {
