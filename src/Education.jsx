@@ -11,7 +11,7 @@ export default function Education() {
     <>
       <Navbar></Navbar>
       {/* School */}
-      <div className="grid md:grid-cols-1 grid-cols-1 pt-12 mb-40 grid-flow-row items-center place-items-center font-poppins scroll-smooth">
+      <div className="grid md:grid-cols-1 grid-cols-1 pt-12 mb-40 grid-flow-row items-center place-items-center font-poppins scroll-smooth animate-fade-up">
         <div className="flex md:flex-row flex-col gap-12">
           <div className="w-80">
             <a href="https://www.facebook.com/136555oldbala">

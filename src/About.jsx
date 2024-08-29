@@ -13,7 +13,7 @@ export default function About() {
   return (
     <>
       <Navbar></Navbar>
-      <div className="grid md:grid-cols-2 grid-cols-1 md:mx-40 mx-8 mt-5 rounded-lg px-10 py-10 gap-10 bg-[#1c1c1c]">
+      <div className="grid md:grid-cols-2 grid-cols-1 md:mx-40 mx-8 mt-5 rounded-lg px-10 py-10 gap-10 bg-[#1c1c1c] animate-fade-up">
         <div className="w-fit">
           <p className="text-white md:text-4xl text-xl font-poppins font-medium tracking-wide w-fit text-left leading-snug">
             I design and code websites according to the needs of the client.
