@@ -30,6 +30,32 @@ export default {
         "judge-bg": "url('./src/assets/JudgeBG.png')",
         "qcu-bg": "url('./src/assets/QCUBG.png')",
       },
+      animation: {
+        "fade-down": "fadeDown 0.5s",
+        "fade-up": "fadeUp 0.5s",
+      },
+      keyframes: {
+        fadeDown: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(-30px) scale(0.9)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0px) scale(1)",
+          },
+        },
+        fadeUp: {
+          "0%": {
+            opacity: "0",
+            transform: "translateY(30px) scale(0.9)",
+          },
+          "100%": {
+            opacity: "1",
+            transform: "translateY(0px) scale(1)",
+          },
+        },
+      },
     },
   },
   plugins: [],

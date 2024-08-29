@@ -17,7 +17,7 @@ import { useSubscribeEmail } from "herotofu-react";
 function Home() {
   return (
     <>
-      <div className="grid md:grid-cols-2 grid-cols-1 justify-center items-center px-10 mx-5 font-poppins">
+      <div className="grid md:grid-cols-2 grid-cols-1 justify-center items-center px-10 mx-5 font-poppins animate-fade-up">
         <div className="flex flex-row items-center my-2 md:ml-8 ml-0 md:w-9/12 w-full">
           <div className="flex flex-col gap-2">
             <a href="https://www.facebook.com/YourSensei04">

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="flex flex-row justify-between px-0 pt-2 font-poppins align-middle pl-0 md:pl-12 sticky bg-[#131313]">
+      <div className="flex flex-row justify-between px-0 pt-2 font-poppins align-middle pl-0 md:pl-12 sticky bg-[#131313] animate-fade-down">
         <div className="">
           <Link to={"/"}>
             <img
