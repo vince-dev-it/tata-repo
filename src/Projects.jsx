@@ -15,7 +15,7 @@ export default function Projects() {
         {/* Card 1 */}
         <div className="flex flex-col gap-10 rounded-md py-10 px-10 place-items-center bg-[#1c1c1c]">
           <p className="text-white font-poppins text-xl font-semibold text-center">
-            Capstone Project
+            Capstone Projects
           </p>
 
           <a href="https://app.qc-agrihub.xyz/">
