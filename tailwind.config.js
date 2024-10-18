@@ -20,7 +20,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        poppins: ["Poppins"],
+        poppins: ["Inter"],
       },
       colors: {
         "bg-black": "#121212",

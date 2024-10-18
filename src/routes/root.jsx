@@ -1,4 +1,3 @@
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Home from "../Home";
 export default function Root() {
@@ -11,7 +10,6 @@ export default function Root() {
         My portfolio will be up soon.
       </div> */}
 
-      <Navbar></Navbar>
       <Home />
       <Footer></Footer>
     </>
